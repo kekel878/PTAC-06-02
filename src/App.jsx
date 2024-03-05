@@ -1,14 +1,10 @@
+import Footer from "./components/Footer";
 export default function App() {
+   return (
+    <main>
 
-  const nome = "João";
-  const sobreNome = "Santos";
+     <footer/>
 
-  return(
-    <div>
-        <h1>Hello World</h1>
-        <p>Desenvolvido por: {nome}</p>
-    </div>  
-  );
-
-
+    </main>
+   )
 }
