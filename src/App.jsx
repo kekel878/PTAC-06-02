@@ -1,10 +1,11 @@
 import Header from "./components/Header";
-import "./globals";
+import Footer from "./components/Foote";
+import "./globals.css";
 export default function App() {
    return (
     <main>
 
-     <footer/>
+     <Footer/>
 
     </main>
    )
