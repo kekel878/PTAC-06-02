@@ -7,3 +7,10 @@ footer{
     height:100px;
     background-color: green;
 }
+.header{
+    color: aliceblue;
+}
+body{
+    margin: 0;
+    pedding: 0;
+}
