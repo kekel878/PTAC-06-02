@@ -9,8 +9,9 @@ footer{
 }
 .header{
     color: aliceblue;
-}
+} 
+
 body{
-    margin: 0;
-    pedding: 0;
+    margin:0;
+    padding:0;
 }

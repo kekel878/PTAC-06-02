@@ -1,18 +1,51 @@
-  import { useState } from "react";
+import { useState } from "react";
 export default function Main(){
-    
-    const [nome,setNome] = userstate("")
-    const [telefone,setTelefone] = userstate 
+    const [nome,setNome] = userstate("")  //(0) number // (true) boolean
+    const  [telefone,setTelefone] = userstate(0)
+    const [listaContato,setlistaContatos] = useState([])
 
-    return( 
-         <main>
-                <input
-
-         type="text"
-         nome="" id=""
-        onChange={(event) => setNome(event.target.value)}
-/>
-        (nome)
-                </main>
-    );
+    const registrar = (event) =>{
+        event.proventDefault();
+        alert ("olá")
+        sertilistaContatos([...listaContato,
+{
+        nomeSalvo:nome,
+        telefoneSalvo: telefone,
 }
+]);
+    };
+    console.table(listaContatos);
+
+   return( 
+ <main>
+          <label htmlfor="nome">Nome:</label>
+  <input
+         type="text"
+         nome="nome-contato"
+         id="nome"
+         value={nome}
+         onChange={
+
+        (event)=> setNome(event.target.value)}
+      />
+
+(nome)
+      <label htmlfor="nomtelefone">Telefone:</label>
+ <input
+      type="tel"
+      telefone="telefone-contato" 
+      id="telefone"
+      value ={telefone}
+      onChange={
+        (event)=> setTelefone(event.target.value)}/>
+       
+{Number}
+      <button>Enviar</button>       
+     <form/>
+      </main>
+    
+    );
+
+
+}
+
