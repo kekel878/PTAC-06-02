@@ -7,11 +7,23 @@ footer{
     height:100px;
     background-color: green;
 }
-.header{
-    color: aliceblue;
-} 
 
-body{
-    margin:0;
-    padding:0;
-}
+    main{
+        height: 600px;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 400px;
+        padding: 1em;
+        border: 1px solid red;
+        border-radius: 1em;
+        background-color: green;
+    }
+
+    #telefone{
+        margin-left: 15px;
+    }
+    button{
+        margin-top: 15px;
+    }
