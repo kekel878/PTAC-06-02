@@ -21,7 +21,7 @@ export default function Main(){
           <label htmlfor="nome">Nome:</label>
   <input
          type="text"
-         nome="nome-contato"
+         nome="lorenzo delas "
          id="nome"
          value={nome}
          onChange={
@@ -40,8 +40,19 @@ export default function Main(){
         (event)=> setTelefone(event.target.value)}/>
        
 {Number}
+
       <button>Enviar</button>       
+    
      <form/>
+     {listaContato.map((contato, index)=>
+
+ <div key={index}>
+
+  <p>{contato.nomeSalvo}</p>
+  <p>{contato.telefoneSalvo}</p>
+ </div>
+ )}
+
       </main>
     
     );
